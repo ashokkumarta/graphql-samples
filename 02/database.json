@@ -1,0 +1,153 @@
+{
+	"Students": [
+		{
+			"id": "S101",
+			"name": "Bruno",
+			"gender": "M"
+		}, 
+		{
+			"id": "S102",
+			"name": "Tammy",
+			"gender": "M"
+		}, 
+		{
+			"id": "S103",
+			"name": "Emily",
+			"gender": "F"
+		}, 
+		{
+			"id": "S104",
+			"name": "Robert",
+			"gender": "M"
+		}, 
+		{
+			"id": "S105",
+			"name": "Joan",
+			"gender": "M"
+		}, 
+		{
+			"id": "S106",
+			"name": "Jennifer",
+			"gender": "F"
+		}, 
+		{
+			"id": "S107",
+			"name": "Kathy",
+			"gender": "F"
+		}, 
+		{
+			"id": "S108",
+			"name": "Tracy",
+			"gender": "F"
+		}, 
+		{
+			"id": "S109",
+			"name": "Judy",
+			"gender": "F"
+		} 
+	], 
+	"Courses": [
+		{
+			"id": "C01",
+			"name": "Data Structures and Algorithms",
+			"duration_hrs": 40,
+			"rating": 4.5
+		}, 
+		{
+			"id": "C02",
+			"name": "Multi-objective Optimization Problems",
+			"duration_hrs": 64,
+			"rating": 3.9
+		}, 
+		{
+			"id": "C03",
+			"name": "Mega Digital Marketing",
+			"duration_hrs": 32,
+			"rating": 4.1
+		}, 
+		{
+			"id": "C04",
+			"name": "Terraform Beginner to Advanced",
+			"duration_hrs": 98,
+			"rating": 4.9
+		}, 
+		{
+			"id": "C05",
+			"name": "DevOps Made Easy",
+			"duration_hrs": 16,
+			"rating": 4.0
+		}
+	], 
+	"Trainings": [
+		{
+			"id": "2001-001",
+			"date": "04-Jan-2001",
+			"course": "C01",
+			"rep": "S105",
+			"students": ["S108", "S105", "S103", "S109"]
+		}, 
+		{
+			"id": "2001-002",
+			"date": "17-Jan-2001",
+			"course": "C04",
+			"rep": "S102",
+			"students": ["S107", "S104", "S102", "S108"]
+		}, 
+		{
+			"id": "2001-003",
+			"date": "26-Jan-2001",
+			"course": "C05",
+			"rep": "S106",
+			"students": ["S102", "S104", "S105", "S106"]
+		}, 
+		{
+			"id": "2001-004",
+			"date": "10-Feb-2001",
+			"course": "C03",
+			"rep": "S105",
+			"students": ["S103", "S105", "S107", "S108"]
+		}, 
+		{
+			"id": "2001-005",
+			"date": "12-Feb-2001",
+			"course": "C01",
+			"rep": "S103",
+			"students": ["S108", "S104", "S103", "S101"]
+		}, 
+		{
+			"id": "2001-006",
+			"date": "14-Feb-2001",
+			"course": "C05",
+			"rep": "S107",
+			"students": ["S103", "S104", "S105", "S107"]
+		}, 
+		{
+			"id": "2001-007",
+			"date": "28-Feb-2001",
+			"course": "C03",
+			"rep": "S101",
+			"students": ["S101", "S104", "S106", "S108"]
+		}, 
+		{
+			"id": "2001-008",
+			"date": "04-Mar-2001",
+			"course": "C01",
+			"rep": "S108",
+			"students": ["S108", "S105", "S101", "S102"]
+		}, 
+		{
+			"id": "2001-008",
+			"date": "24-Mar-2001",
+			"course": "C02",
+			"rep": "S102",
+			"students": ["S106", "S104", "S102", "S109"]
+		}, 
+		{
+			"id": "2001-010",
+			"date": "28-Mar-2001",
+			"course": "C04",
+			"rep": "S107",
+			"students": ["S101", "S102", "S103", "S107"]
+		}
+	]
+}

@@ -1,4 +1,4 @@
-# Getting started sample with 2 APIs - welcome and greet
+# Getting started demo with 2 APIs - welcome and greet
 
 ## Install dependencies
 npm install
